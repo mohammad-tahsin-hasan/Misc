@@ -1,0 +1,119 @@
+{
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "325",
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.largeFileOptimizations": false,
+    "editor.wordWrap": "on",
+    "editor.stickyScroll.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.format.config.printWidth": 140,
+    "liveServer.settings.donotVerifyTags": true,
+    "cSpell.userWords": [
+        "Cascadia",
+        "codeforces",
+        "Consolas",
+        "hackerrank",
+        "icpc",
+        "leetcode",
+        "phitron",
+        "postbuild",
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.ignoreMissingGitWarning": true,
+    "redhat.telemetry.enabled": false,
+    "go.toolsManagement.autoUpdate": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "window.customTitleBarVisibility": "windowed",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "bash (MSYS2)": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i",
+            ]
+        },
+    },
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ],
+    // "cph.general.saveLocation": "C:\\$Recycle.Bin",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    // "code-runner.terminalRoot": "/", // does not works with windows cmd
+    "code-runner.ignoreSelection": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": " cd $dir && java \"$fileName\"",
+        "zig": "zig run",
+        "python": "python -u",
+        "go": " cd $dir && go run \"$fileName\"",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "typescript": "ts-node",
+        "julia": "julia",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "rust": " cd \"$dir\" && rustc \"$fileName\" && ./\"$fileNameWithoutExt.exe\" && rm -rf \"$fileNameWithoutExt.exe\" && rm -rf \"$fileNameWithoutExt.pdb\"",
+        "dart": "dart",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "c": " cd $dir && gcc \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\" && echo && rm -rf \"$fileNameWithoutExt\"", // bash
+        // "c": "cd $dir && gcc \"$fileName\" -o \"$fileNameWithoutExt\" && \"$fileNameWithoutExt\" && del \"$fileNameWithoutExt.exe\"", // cmd
+        // "cpp": " cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt\" && ./\"$fileNameWithoutExt\" && echo && rm -rf \"$fileNameWithoutExt\"", // bash
+        "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt\" && \"$fileNameWithoutExt\" && del \"$fileNameWithoutExt.exe\"", // cmd
+    },
+    "editor.accessibilitySupport": "off",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.multiCursorLimit": 100000,
+    "git.openRepositoryInParentFolders": "never",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.shellIntegration.enabled": false,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.preferredHighContrastColorTheme": "Dracula Theme Soft",
+    "files.autoSave": "afterDelay",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontSize"
+    ],
+    "editor.fontSize": 30,
+}
